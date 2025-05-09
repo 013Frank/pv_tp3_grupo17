@@ -5,7 +5,7 @@ function TaskList({ list, setlist }) {
     const [completed, setCompleted] = useState([]);
 
     return(
-    <ul>
+    <ul className={styles.taskList}>
         {list.map((l, li) =>
             <li key={`li_${li}`} className="styles.taskItem">
                 <span style={{ textDecoration: completed.includes(l) ? "line-through" : "none" }}>{l}</span>

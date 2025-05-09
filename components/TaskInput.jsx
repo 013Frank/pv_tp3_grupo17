@@ -1,5 +1,7 @@
 import {useState} from "react";
 import TaskList from "./TaskList";
+import styles from "./TaskInput.module.css";
+
 const TaskInput = ({ }) => {
     const [value, setvalue] = useState("");
     const [list, setlist] = useState([]);
@@ -8,6 +10,7 @@ const TaskInput = ({ }) => {
 
     return (
         <div>
+            <h1 className="title">NeonTasks</h1>
             <input
                 placeholder="Agregar tarea"
                 value={value}

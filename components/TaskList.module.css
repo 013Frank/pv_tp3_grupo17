@@ -8,6 +8,14 @@
     align-items: center;
     color: #dcdcdc;
   }
+
+  .taskList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
   
   /* Efecto neón en los botones */
   button {
