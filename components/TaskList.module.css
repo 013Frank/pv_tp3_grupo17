@@ -1,0 +1,27 @@
+.taskItem {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0040ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #dcdcdc;
+  }
+  
+  /* Efecto neón en los botones */
+  button {
+    margin-left: 10px;
+    background-color: #00ffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 8px #00ffff;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #0040ff;
+    box-shadow: 0 0 12px #0040ff;
+  }
