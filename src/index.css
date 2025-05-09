@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 :root {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Audiowide', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  
   color-scheme: light dark;
   color: #dcdcdc;
   background-color: #101020;
