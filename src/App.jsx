@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './App.css'
-import TaskInput from '../components/TaskInput'
+import TaskInput from '../src/components/TaskInput'
 function App() {
   return (
     <TaskInput />
