@@ -7,3 +7,4 @@
 --- Con el objetivo de poner en prática los aprendido en Programación Visual, en esta ocasión hemos creado una aplicación web usando React, estruturas básicas, componentes, props, estado y hooks. A su vez le hemos dado una temática futurista para que sea agrable y entretenida de ver y usar.
 
 20/05/2025: Se realizó un cambio de carpetas, integrando components a src como una nueva rama.
+            -> En el mismo día se hizo el trabajo de actualizar el proyecto, corrigiéndolo de modo que TaskList y TaskInput sean independientes.
