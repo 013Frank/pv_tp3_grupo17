@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./TaskList.module.css"
 
-function TaskList({ list, setlist }) {
+const TaskList = ({ list, setlist }) => {
     const [completed, setCompleted] = useState([]);
 
     return(

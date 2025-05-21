@@ -1,10 +1,8 @@
 import {useState} from "react";
-import TaskList from "./TaskList";
 import styles from "./TaskInput.module.css";
 
-const TaskInput = ({ }) => {
+const TaskInput = ({ list, setlist }) => {
     const [value, setvalue] = useState("");
-    const [list, setlist] = useState([]);
 
     // Nueva función para renderizar la lista de tareas
 
@@ -29,11 +27,6 @@ const TaskInput = ({ }) => {
                 Agregar
             </button>
             <hr />
-            {list.length > 0 ? (
-                <TaskList list={list} setlist={setlist} />
-            ) : (
-                <p>No hay tareas</p>
-            )}
         </div>
     );
 }
